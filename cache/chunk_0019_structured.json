@@ -1,8 +1,72 @@
 {
   "timestamp_range": "152s - 160s",
-  "raw_response": "{\n  \"timestamp_range\": \"0s - 6s\",\n  \"hands\": \"Worker's left hand is initially holding a piece of lumber overhead, pressing it against the OSB sheathing. The right hand is holding a red nail gun, aiming it at the lumber. In later frames, the worker's hands are on lumber placed on a sawhorse, appearing to prepare or mark it.\",\n  \"tools\": [\n    \"nail gun (in worker's right hand, then not clearly visible)\",\n    \"sawhorse (in front of worker)\",\n    \"ladder (background left)\"\n  ],\n  \"materials\": [\n    \"lumber (overhead, in worker's left hand, on sawhorse, loose on floor)\",\n    \"OSB sheathing (overhead)\",\n    \"OSB subfloor (underfoot)\",\n    \"blue bracket (on lumber overhead)\"\n  ],\n  \"environment\": {\n    \"structure_type\": \"wood frame\",\n    \"phase\": \"framing\",\n    \"level\": \"upper floor\",\n    \"surface\": \"OSB subfloor\"\n  },\n  \"hazards\": {\n    \"items\": [\n      \"proximity to power tool (nail gun)\",\n      \"loose lumber pieces (on floor, trip hazard)\",\n      \"red air hose (on floor, trip hazard)\"\n    \", \"missing PPE (hard hat, safety glasses not visible)\"\n    ],\n    \"risk_level\": \"MEDIUM\",\n    \"details\": \"The worker is operating a nail gun overhead, which carries inherent risks. There are multiple loose pieces of lumber and a red air hose on the floor, posing trip hazards. While proper footwear is visible, a hard hat and safety glasses are not confirmed from this perspective, which are typically required for framing work.\"\n  },\n  \"activity\": \"framing\",\n  \"productivity\": \"PRODUCTIVE\",\n  \"confidence\": 0.95,\n  \"reasoning\": \"The worker is actively fastening lumber overhead with a nail gun and then preparing lumber on a sawhorse, both integral parts of the framing process. The environment is clearly a wood frame structure under construction.\",\n  \"spatial_memory\": [\n    {\n      \"object\": \"nail gun\",\n      \"location\": \"in worker's hand, then likely nearby\",\n      \"type\": \"tool\"\n    },\n    {\n      \"object\": \"lumber\",\n      \"location\": \"overhead, on sawhorse, loose on floor\",\n      \"type\": \"material\"\n    },\n    {\n      \"object\": \"OSB sheathing\",\n      \"location\": \"overhead\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"OSB subfloor\",\n      \"location\": \"underfoot\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"ladder\",\n      \"location\": \"background left\",\n      \"type\": \"tool\"\n    },\n    {\n      \"object\": \"sawhorse\",\n      \"location\": \"in front of worker\",\n      \"type\": \"tool\"\n    },\n    {\n      \"object\": \"wood frame walls\",\n      \"location\": \"background\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"red air hose\",\n      \"location\": \"on floor\",\n      \"type\": \"hazard\"\n    },\n    {\n      \"object\": \"blue bracket\",\n      \"location\": \"on lumber overhead\",\n      \"type\": \"material\"\n    }\n  ]\n}",
-  "parse_error": "Expecting ',' delimiter: line 26 column 5 (char 1001)",
-  "activity": "parse_error",
-  "productivity": "unknown",
-  "confidence": 0.0
+  "hands": "The worker wearing the camera has their arm/forearm visible in the foreground, but specific hand actions are not discernible. Another worker in a yellow vest is visible in frames 3 and 4, appearing to be working on the concrete block wall, but their hands are not clearly visible.",
+  "tools": [],
+  "materials": [
+    "mortar/concrete mix (in trough in foreground)",
+    "concrete blocks/CMU (forming walls, stacked on ground)",
+    "scaffolding/wooden beams (overhead and in background)",
+    "rebar (sticking out of partially built walls)"
+  ],
+  "environment": {
+    "structure_type": "concrete block (CMU)",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "Likely a concrete slab or temporary platform, with a trough of mortar mix in the immediate foreground."
+  },
+  "hazards": {
+    "items": [
+      "overhead hazards (scaffolding/beams, cranes)",
+      "fall hazards (working at height, implied by cranes and upper floor view)",
+      "heavy materials (concrete blocks)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The work is being conducted at an elevated level, indicated by the presence of cranes and the view of the surrounding landscape. There are overhead structures (scaffolding/beams) and heavy materials (concrete blocks) being handled. While one worker is wearing PPE (hard hat, safety glasses, gloves), the general environment of an active construction site at height presents inherent risks."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.9,
+  "reasoning": "The frames show workers engaged in constructing walls with concrete blocks and mortar, which is a form of framing. The presence of materials, other workers, and heavy machinery indicates active work. The worker wearing the camera is moving or observing, and another worker is actively working on the wall.",
+  "spatial_memory": [
+    {
+      "object": "concrete block walls",
+      "location": "background/midground",
+      "type": "landmark"
+    },
+    {
+      "object": "mortar/concrete mix trough",
+      "location": "foreground",
+      "type": "material"
+    },
+    {
+      "object": "scaffolding/wooden beams",
+      "location": "overhead/background",
+      "type": "landmark"
+    },
+    {
+      "object": "cranes",
+      "location": "background",
+      "type": "landmark"
+    },
+    {
+      "object": "worker in yellow vest",
+      "location": "left/midground",
+      "type": "person"
+    },
+    {
+      "object": "rebar",
+      "location": "sticking out of walls",
+      "type": "material"
+    },
+    {
+      "object": "fall hazards",
+      "location": "general work area",
+      "type": "hazard"
+    },
+    {
+      "object": "overhead hazards",
+      "location": "general work area",
+      "type": "hazard"
+    }
+  ]
 }

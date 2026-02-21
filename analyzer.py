@@ -29,6 +29,7 @@ from config import (
     build_memory_prompt,
     FRAMES_PER_CHUNK,
     FRAME_INTERVAL_SEC,
+    REQUEST_DELAY_SECONDS,
 )
 
 
@@ -91,7 +92,10 @@ def analyze_chunk(
     cache_path = get_cache_path(chunk_idx, mode)
     if cache_path.exists():
         with open(cache_path) as f:
-            return json.load(f)
+            cached = json.load(f)
+            # Don't use cached errors - retry those chunks
+            if "error" not in cached and "parse_error" not in cached:
+                return cached
 
     images = frames_to_pil(frame_paths)
 
@@ -113,25 +117,51 @@ def analyze_chunk(
     # Build content parts: images + prompt text
     content_parts = list(images) + [prompt]
 
+    # Retry logic for rate limiting
+    max_retries = 5
+    retry_count = 0
+    
     try:
-        if USE_NEW_SDK:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=content_parts,
-                config=genai_types.GenerateContentConfig(
-                    temperature=0.2,
-                    max_output_tokens=4096,
-                ),
-            )
-        else:
-            response = client.generate_content(
-                content_parts,
-                generation_config=genai_legacy.types.GenerationConfig(
-                    temperature=0.2,
-                    max_output_tokens=4096,
-                ),
-            )
-        raw_text = response.text.strip()
+        while retry_count < max_retries:
+            try:
+                if USE_NEW_SDK:
+                    response = client.models.generate_content(
+                        model=GEMINI_MODEL,
+                        contents=content_parts,
+                        config=genai_types.GenerateContentConfig(
+                            temperature=0.2,
+                            max_output_tokens=4096,
+                        ),
+                    )
+                else:
+                    response = client.generate_content(
+                        content_parts,
+                        generation_config=genai_legacy.types.GenerationConfig(
+                            temperature=0.2,
+                            max_output_tokens=4096,
+                        ),
+                    )
+                raw_text = response.text.strip()
+                break  # Success, exit retry loop
+                
+            except Exception as e:
+                if "429" in str(e) or "ResourceExhausted" in str(e.__class__.__name__):
+                    retry_count += 1
+                    if retry_count >= max_retries:
+                        raise  # Give up after max retries
+                    
+                    # Extract retry delay from error message if available
+                    retry_delay = 45  # Default to 45 seconds
+                    if "retry in" in str(e).lower():
+                        import re
+                        match = re.search(r'retry in (\d+)', str(e).lower())
+                        if match:
+                            retry_delay = int(match.group(1)) + 5  # Add buffer
+                    
+                    print(f"\n  Rate limited. Waiting {retry_delay}s before retry {retry_count}/{max_retries}...", flush=True)
+                    time.sleep(retry_delay)
+                else:
+                    raise  # Re-raise non-rate-limit errors
 
         if mode == "naive":
             result = {
@@ -186,9 +216,14 @@ def analyze_chunk(
             "confidence": 0.0,
         }
 
-    # Cache result
-    with open(cache_path, "w") as f:
-        json.dump(result, f, indent=2)
+    # Cache result (but don't cache errors - we want to retry those)
+    if "error" not in result and "parse_error" not in result:
+        with open(cache_path, "w") as f:
+            json.dump(result, f, indent=2)
+    else:
+        # If error cache exists, remove it so we retry next time
+        if cache_path.exists():
+            cache_path.unlink()
 
     return result
 
@@ -244,10 +279,17 @@ def run_pipeline(
 
         activity = result.get("activity", "?")
         productivity = result.get("productivity", "?")
-        print(f"{activity} [{productivity}]")
+        
+        # Print error details if present
+        if "error" in result:
+            print(f"{activity} [{productivity}] - ERROR: {result['error']}")
+        elif "parse_error" in result:
+            print(f"{activity} [{productivity}] - PARSE ERROR: {result['parse_error']}")
+        else:
+            print(f"{activity} [{productivity}]")
 
-        # Rate limit
-        time.sleep(1)
+        # Rate limit - configurable delay to avoid API quota issues
+        time.sleep(REQUEST_DELAY_SECONDS)
 
     # Compile summary
     output = {

@@ -1,8 +1,57 @@
 {
   "timestamp_range": "0s - 8s",
-  "raw_response": "```json\n{\n  \"timestamp_range\": \"0s - 6s\",\n  \"hands\": \"In the initial frames, hands are not clearly visible. In frame 3, the worker's hands reach down to pick up a tool belt from the floor. In frame 4, the worker's hands are adjusting or resting on the tool belt, which is now worn.\",\n  \"tools\": [\n    \"Tool belt/pouch (on floor in frames 1-2, being put on in frame 3, on worker in frame 4)\",\n    \"Unidentifiable tools within the tool belt (on worker in frame 4)\"\n  ],\n  \"materials\": [\n    \"OSB sheets (floor surface)\",\n    \"Wood framing lumber (on floor, left side, and visible as joists below)\",\n    \"Green flexible pipe/hose (on floor, left side)\",\n    \"Metal box/fixture (on floor, left side)\"\n  ],\n  \"environment\": {\n    \"structure_type\": \"wood frame\",\n    \"phase\": \"framing\",\n    \"level\": \"upper floor\",\n    \"surface\": \"OSB subfloor\"\n  },\n  \"hazards\": {\n    \"items\": [\n      \"Loose lumber (trip hazard on floor)\",\n      \"Green pipe/hose (trip hazard on floor)\",\n      \"Improper footwear (worker is wearing sneakers instead of work boots)\",\n      \"Potential fall hazards (implied by upper floor framing, though no immediate unguarded edges are visible in the narrow camera view)\"\n    },\n    \"risk_level\": \"MEDIUM\",\n    \"details\": \"The worker's footwear (sneakers) is inappropriate for a construction site, posing a risk of foot injury. Loose lumber and a hose on the floor present minor trip hazards. While no direct fall hazards are visible, working on an upper floor during framing inherently carries this risk.\"\n  },\n  \"activity\": \"carrying/moving\",\n  \"productivity\": \"TRANSITIONAL\",\n  \"confidence\": 0.95,\n  \"reasoning\": \"The worker is actively picking up and putting on a tool belt, which is a preparatory action for work, classifying it as transitional and involving carrying/moving of personal equipment.\",\n  \"spatial_memory\": [\n    {\n      \"object\": \"OSB subfloor\",\n      \"location\": \"below worker\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"Wood framing/joists\",\n      \"location\": \"left side, below floor\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"Green pipe/hose\",\n      \"location\": \"left side on floor\",\n      \"type\": \"hazard\"\n    },\n    {\n      \"object\": \"Metal box/fixture\",\n      \"location\": \"left side on floor\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"Loose lumber\",\n      \"location\": \"on floor\",\n      \"type\": \"hazard\"\n    },\n    {\n      \"object\": \"Tool belt\",\n      \"location\": \"on worker\",\n      \"type\": \"tool\"\n    },\n    {\n      \"object\": \"Worker's footwear (sneakers)\",\n      \"location\": \"on worker's feet\",\n      \"type\": \"hazard\"\n    }\n  ]\n}\n```",
-  "parse_error": "Expecting ',' delimiter: line 26 column 5 (char 1180)",
-  "activity": "parse_error",
-  "productivity": "unknown",
-  "confidence": 0.0
+  "hands": "The worker's right hand is holding a spirit level, positioning it on top of a concrete block. Their left hand appears to be resting on or adjusting the concrete block. They are leaning forward over the block.",
+  "tools": [
+    "Spirit level (in worker's right hand)"
+  ],
+  "materials": [
+    "Concrete blocks (in front of worker, forming a wall)",
+    "Rebar/reinforcing bar (vertical, to the left of the worker)",
+    "Scaffolding/formwork (in background, right side)"
+  ],
+  "environment": {
+    "structure_type": "concrete block / masonry",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "Partially constructed concrete block wall or concrete slab"
+  },
+  "hazards": {
+    "items": [
+      "Overhead hazards (cranes in background, implying potential lifts)",
+      "Fall from height (working on an upper floor with potential unguarded edges, though not directly visible in the immediate foreground)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The worker is on a construction site with large cranes in the background, indicating potential overhead lifting operations. While immediate fall hazards are not clearly visible, working on an upper floor of a building under construction inherently carries a risk of falls from height. PPE includes a hard hat, high-visibility vest, and gloves, but safety glasses are not clearly visible."
+  },
+  "activity": "measuring",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively using a spirit level to check the alignment and levelness of concrete blocks, which is a direct construction task. This falls under the 'measuring' category as they are checking dimensions/alignment.",
+  "spatial_memory": [
+    {
+      "object": "Concrete block wall",
+      "location": "In front of the worker",
+      "type": "landmark"
+    },
+    {
+      "object": "Vertical rebar",
+      "location": "To the left of the worker",
+      "type": "landmark"
+    },
+    {
+      "object": "Cranes",
+      "location": "Far background",
+      "type": "landmark"
+    },
+    {
+      "object": "Scaffolding/formwork",
+      "location": "Right background",
+      "type": "landmark"
+    },
+    {
+      "object": "Another worker",
+      "location": "Right background (visible in frame 3)",
+      "type": "person"
+    }
+  ]
 }

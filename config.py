@@ -1,9 +1,21 @@
 """Configuration for the visual memory pipeline."""
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # --- API ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY not found. Please add it to your .env file")
+
 GEMINI_MODEL = "gemini-2.5-flash"
+
+# Rate limiting: Free tier has strict limits (20 requests with rolling window)
+# Use 8 seconds between requests to avoid hitting rate limits
+# This means ~7.5 requests/minute, well under the 20/minute rolling window limit
+REQUEST_DELAY_SECONDS = 8
 
 # --- Video Processing ---
 FRAMES_DIR = os.path.join(os.path.dirname(__file__), "frames")
