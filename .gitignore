@@ -1,2 +1,30 @@
-# Original large video
+# Videos
 videos/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Generated reconstruction data
+extracted_frames/
+colmap_workspaces/
+public/trajectory.json
+public/point_cloud.ply
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
