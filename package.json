@@ -1,0 +1,17 @@
+{
+  "name": "3d-environment-reconstruction",
+  "version": "1.0.0",
+  "description": "Egocentric video 3D reconstruction with path visualization",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "@types/three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

@@ -1,3 +1,14 @@
-google-generativeai>=0.8.0
+# Video processing
+opencv-python>=4.8.0
+numpy>=1.24.0
 Pillow>=10.0.0
-streamlit>=1.30.0
+
+# 3D reconstruction
+# Note: COLMAP needs to be installed separately from https://colmap.github.io/
+
+# Mesh processing
+trimesh>=3.23.0
+open3d>=0.17.0
+
+# Utilities
+tqdm>=4.66.0
