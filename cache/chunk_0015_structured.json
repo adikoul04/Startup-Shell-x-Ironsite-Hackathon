@@ -1,0 +1,62 @@
+{
+  "timestamp_range": "120s - 128s",
+  "hands": "The worker's left hand is holding a piece of lumber against the overhead OSB sheathing. The worker's right hand is holding a nail gun, aiming it at the lumber.",
+  "tools": [
+    "nail gun (in worker's right hand)"
+  ],
+  "materials": [
+    "lumber (being held by left hand, also visible as overhead framing)",
+    "OSB (overhead sheathing, underfoot as subfloor)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "no safety glasses (while operating nail gun)",
+      "no hard hat (working overhead)",
+      "inadequate footwear (sneakers for construction work)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The worker is operating a nail gun without visible eye protection, which is a significant hazard. There is also no hard hat while working on overhead framing, and the footwear appears to be sneakers rather than protective work boots."
+  },
+  "activity": "drilling/fastening",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively using a nail gun to fasten a piece of lumber to the overhead framing, indicating a clear fastening activity and productive work.",
+  "spatial_memory": [
+    {
+      "object": "nail gun",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "lumber",
+      "location": "overhead, being installed",
+      "type": "material"
+    },
+    {
+      "object": "OSB sheathing",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background",
+      "type": "landmark"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, general area (from previous memory)",
+      "type": "hazard"
+    }
+  ]
+}

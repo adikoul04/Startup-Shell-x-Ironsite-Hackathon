@@ -1,0 +1,86 @@
+{
+  "timestamp_range": "344s - 352s",
+  "hands": "The worker's left hand is holding a small metal square against a piece of wood framing lumber. The right hand is holding a pencil or marker and marking the wood along the edge of the square.",
+  "tools": [
+    "small metal square (in left hand)",
+    "pencil/marker (in right hand)",
+    "ladder (background, left)",
+    "drills (on floor, right)",
+    "nail gun (on floor, right)",
+    "air hose (on floor, general area)"
+  ],
+  "materials": [
+    "wood framing lumber (in hands, on floor as part of a frame, and loose pieces)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "trip hazards (air hose, drills, nail gun on floor)",
+      "missing PPE (no hard hat or safety glasses visible on the POV worker, though not confirmed; other worker in background also lacks visible PPE)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Multiple tools and an air hose are scattered on the OSB subfloor, posing trip hazards. The POV worker's head and eyes are not visible, so PPE status is unknown, but the other worker in the background is not wearing a hard hat or safety glasses."
+  },
+  "activity": "measuring",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively using a square and pencil to mark wood, which is a direct step in the measuring and cutting process for framing. The wider shot confirms the framing environment and the presence of tools for this activity.",
+  "spatial_memory": [
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "ladder",
+      "location": "background, left",
+      "type": "tool"
+    },
+    {
+      "object": "drills",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "nail gun",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "air hose",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "another worker",
+      "location": "background, left",
+      "type": "person"
+    },
+    {
+      "object": "partially assembled wall frame",
+      "location": "on floor, in front of worker",
+      "type": "landmark"
+    },
+    {
+      "object": "small metal square",
+      "location": "in hand",
+      "type": "tool"
+    },
+    {
+      "object": "pencil/marker",
+      "location": "in hand",
+      "type": "tool"
+    }
+  ]
+}

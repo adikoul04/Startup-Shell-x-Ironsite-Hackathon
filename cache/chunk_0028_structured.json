@@ -1,0 +1,79 @@
+{
+  "timestamp_range": "224s - 232s",
+  "hands": "Worker's right hand is holding and operating a nail gun. Worker's left hand is holding a piece of lumber against the OSB sheathing above, positioning it for fastening.",
+  "tools": [
+    "Nail gun (in worker's right hand)",
+    "Red air hose (extending from nail gun, downwards)"
+  ],
+  "materials": [
+    "Lumber pieces (being fastened to ceiling, also forming ceiling structure)",
+    "OSB sheathing (ceiling/floor above)",
+    "OSB subfloor (under worker's feet)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Red air hose (trip hazard on floor)",
+      "Loose lumber pieces (trip hazard on floor)",
+      "Proximity to power tools (nail gun in active use)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The worker is actively using a nail gun, which poses inherent risks. The air hose and loose lumber on the floor present trip hazards."
+  },
+  "activity": "drilling/fastening",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is clearly using a nail gun to fasten lumber to the ceiling, indicating active framing/fastening work.",
+  "spatial_memory": [
+    {
+      "object": "Nail gun",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "Red air hose",
+      "location": "extending from nail gun, downwards",
+      "type": "hazard"
+    },
+    {
+      "object": "Lumber pieces",
+      "location": "being fastened to ceiling, also forming ceiling structure",
+      "type": "material"
+    },
+    {
+      "object": "OSB sheathing",
+      "location": "ceiling/floor above",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "under worker's feet",
+      "type": "landmark"
+    },
+    {
+      "object": "Newly laid out wall frame",
+      "location": "on floor, left mid-ground",
+      "type": "landmark"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "Trash can",
+      "location": "background mid-right",
+      "type": "landmark"
+    }
+  ]
+}

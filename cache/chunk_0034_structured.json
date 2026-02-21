@@ -1,0 +1,58 @@
+{
+  "timestamp_range": "272s - 280s",
+  "hands": "The worker's left hand is holding a piece of lumber, positioning it within a partially assembled wall frame. The worker's right hand is gripping and operating a nail gun, aiming it at the lumber to fasten it.",
+  "tools": [
+    "Nail gun (in worker's right hand)",
+    "Air hose (connected to nail gun, extending to floor)"
+  ],
+  "materials": [
+    "Lumber/wood studs (forming a partially assembled wall frame on the floor, and one piece held by the left hand)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Air hose (trip hazard on floor)",
+      "Proximity to powerful pneumatic tool (nail gun)",
+      "Footwear (sneakers, not typical steel-toed boots for construction, though acceptable for some tasks)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The air hose on the floor presents a trip hazard. The worker is operating a powerful nail gun, which requires careful handling. While not immediately visible, the lack of steel-toed boots could be a concern depending on site requirements."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively using a nail gun to fasten lumber pieces together, which is a core activity in framing a structure. The partially assembled wall frame on the OSB subfloor confirms the framing phase.",
+  "spatial_memory": [
+    {
+      "object": "Partially assembled wall frame",
+      "location": "on floor, in front of worker",
+      "type": "landmark"
+    },
+    {
+      "object": "Nail gun",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "Air hose",
+      "location": "on floor, extending from nail gun",
+      "type": "hazard"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "Lumber/wood studs",
+      "location": "on floor, being assembled",
+      "type": "material"
+    }
+  ]
+}

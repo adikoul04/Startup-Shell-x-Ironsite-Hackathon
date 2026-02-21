@@ -1,0 +1,109 @@
+{
+  "timestamp_range": "96s - 104s",
+  "hands": "The worker's hands are actively engaged in various tasks. In the first frame, the left hand holds a tape measure while the right hand holds the end of the tape measure against a piece of lumber. In the second frame, the left hand holds a drill/driver and the right hand holds a marker. In the third frame, the left hand holds a nail gun and the right hand holds a drill/driver. In the fourth frame, the right hand holds a nail gun, and the left hand appears to be positioning a piece of lumber.",
+  "tools": [
+    "tape measure (in hands)",
+    "drill/driver (in hands)",
+    "marker (in hand)",
+    "nail gun (in hands)",
+    "circular saw (on sawhorse, far background)",
+    "broom (on floor, far background)",
+    "corded tool (on floor, far background)",
+    "sawhorse (far background)",
+    "ladder (left background)"
+  ],
+  "materials": [
+    "lumber pieces (on floor, being worked on)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "loose lumber pieces (on floor, trip hazard)",
+      "proximity to power tools (nail gun, drill/driver, circular saw)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Numerous loose pieces of lumber are scattered on the OSB subfloor, posing trip hazards. The worker is actively using and is in proximity to power tools (nail gun, drill/driver, circular saw)."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is performing a sequence of framing tasks including measuring, marking, and preparing to fasten lumber, indicating active framing work.",
+  "spatial_memory": [
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark"
+    },
+    {
+      "object": "roof trusses",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard"
+    },
+    {
+      "object": "tape measure",
+      "location": "in worker's hands",
+      "type": "tool"
+    },
+    {
+      "object": "drill/driver",
+      "location": "in worker's hands",
+      "type": "tool"
+    },
+    {
+      "object": "marker",
+      "location": "in worker's hand",
+      "type": "tool"
+    },
+    {
+      "object": "nail gun",
+      "location": "in worker's hands",
+      "type": "tool"
+    },
+    {
+      "object": "circular saw",
+      "location": "on sawhorse, far background",
+      "type": "tool"
+    },
+    {
+      "object": "broom",
+      "location": "on floor, far background",
+      "type": "tool"
+    },
+    {
+      "object": "corded tool",
+      "location": "on floor, far background",
+      "type": "tool"
+    },
+    {
+      "object": "sawhorse",
+      "location": "far background",
+      "type": "tool"
+    },
+    {
+      "object": "ladder",
+      "location": "left background",
+      "type": "tool"
+    },
+    {
+      "object": "other worker",
+      "location": "far background, right",
+      "type": "person"
+    }
+  ]
+}

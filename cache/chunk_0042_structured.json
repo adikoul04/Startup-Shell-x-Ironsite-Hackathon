@@ -1,0 +1,90 @@
+{
+  "timestamp_range": "336s - 344s",
+  "hands": "Worker's hands are engaged in positioning and possibly marking lumber for a wall frame. In the first two frames, a hammer is held (left hand then right hand). In the third frame, the left hand touches lumber. In the fourth frame, the left hand holds a small metal tool (likely a square) while the right hand reaches towards the lumber.",
+  "tools": [
+    "hammer (in hand / on floor, left)",
+    "circular saw (on floor, right)",
+    "nail gun (on floor, right)",
+    "drills (on floor, right)",
+    "ladder (background, left)",
+    "small metal tool/square (in left hand, frame 4)"
+  ],
+  "materials": [
+    "lumber (on floor, being framed)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "trip hazard (air hose on floor)",
+      "trip hazard (circular saw on floor)",
+      "trip hazard (nail gun on floor)",
+      "trip hazard (drills on floor)",
+      "missing PPE (safety glasses)",
+      "missing PPE (hard hat)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Several tools and an air hose are on the OSB subfloor, posing trip hazards. The worker is not wearing safety glasses or a hard hat, which are essential PPE for a construction site."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively assembling a wood wall frame on the subfloor, handling lumber and tools like a hammer and a square. This clearly falls under framing activity and is productive work.",
+  "spatial_memory": [
+    {
+      "object": "partially assembled wall frame",
+      "location": "on floor, in front of worker",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "circular saw",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "nail gun",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "drills",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "air hose",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "hammer",
+      "location": "in hand / on floor, left of worker's feet",
+      "type": "tool"
+    },
+    {
+      "object": "ladder",
+      "location": "background, left",
+      "type": "tool"
+    },
+    {
+      "object": "small metal tool/square",
+      "location": "in left hand",
+      "type": "tool"
+    }
+  ]
+}

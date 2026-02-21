@@ -1,0 +1,65 @@
+{
+  "timestamp_range": "352s - 360s",
+  "hands": "The worker is holding a red nail gun in their right hand, positioning it over a wooden stud. The left hand appears to be guiding the air hose or steadying the wood frame.",
+  "tools": [
+    "nail gun (in right hand)",
+    "air hose (connected to nail gun, on floor, general area)"
+  ],
+  "materials": [
+    "partially assembled wall frame (on floor, in front of worker)",
+    "OSB subfloor (underfoot)",
+    "wood studs/lumber (on floor, near the wall frame)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "air hose (trip hazard)",
+      "loose lumber (trip hazard)",
+      "missing safety glasses",
+      "improper footwear (sneakers)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The air hose and loose lumber on the floor present trip hazards. The worker is actively using a nail gun without visible safety glasses, and is wearing sneakers which are not ideal for construction work."
+  },
+  "activity": "drilling/fastening",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is holding and operating a nail gun to fasten components of a wood frame, indicating active framing work. The environment is consistent with wood frame construction on an OSB subfloor.",
+  "spatial_memory": [
+    {
+      "object": "partially assembled wall frame",
+      "location": "on floor, in front of worker",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "air hose",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "nail gun",
+      "location": "in right hand",
+      "type": "tool"
+    },
+    {
+      "object": "loose lumber/studs",
+      "location": "on floor, near wall frame",
+      "type": "material"
+    }
+  ]
+}

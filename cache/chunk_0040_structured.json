@@ -1,0 +1,104 @@
+{
+  "timestamp_range": "320s - 328s",
+  "hands": "The worker's left hand is gripping a piece of lumber. The worker's right hand is holding and operating a red circular saw, actively cutting the lumber.",
+  "tools": [
+    "circular saw (in worker's right hand)",
+    "hammer (on floor, left of worker's feet)"
+  ],
+  "materials": [
+    "lumber (being cut by worker)",
+    "OSB subfloor (under worker's feet)",
+    "partially assembled wall frame (on floor, in front of worker)",
+    "wood frame walls (background, left and right)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "proximity to power tools (circular saw in use)",
+      "potential trip hazards (hammer on floor, loose lumber pieces on floor, air hose from previous frames)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The worker is actively using a circular saw, which inherently carries a risk of injury. A hammer is on the floor near the worker's feet, and other loose lumber pieces are visible, posing potential trip hazards. Missing PPE (safety glasses, hard hat) cannot be confirmed from this angle but is a general concern on construction sites."
+  },
+  "activity": "cutting",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is clearly operating a circular saw to cut a piece of lumber, which is a productive cutting activity within the framing phase of construction.",
+  "spatial_memory": [
+    {
+      "object": "circular saw",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "hammer",
+      "location": "on floor, left of worker's feet",
+      "type": "tool"
+    },
+    {
+      "object": "lumber",
+      "location": "in worker's left hand, being cut",
+      "type": "material"
+    },
+    {
+      "object": "partially assembled wall frame",
+      "location": "on floor, in front of worker",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "trash can",
+      "location": "mid-ground, right",
+      "type": "tool"
+    },
+    {
+      "object": "broom",
+      "location": "mid-ground, right",
+      "type": "tool"
+    },
+    {
+      "object": "drills",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "ladder",
+      "location": "right, leaning against wall",
+      "type": "tool"
+    },
+    {
+      "object": "windows",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "trees",
+      "location": "outside windows",
+      "type": "landmark"
+    },
+    {
+      "object": "air hose",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "nail gun",
+      "location": "on floor, general area",
+      "type": "tool"
+    }
+  ]
+}

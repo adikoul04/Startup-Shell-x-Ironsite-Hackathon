@@ -1,0 +1,92 @@
+{
+  "mode": "naive",
+  "total_frames": 202,
+  "total_chunks": 10,
+  "timeline": [
+    {
+      "timestamp_range": "0s - 8s",
+      "raw_response": "The video shows a first-person perspective, looking down at a person's feet and lower body, on what appears to be a construction site. The floor is made of OSB (Oriented Strand Board), and exposed wooden framing is visible on the left side, indicating an unfinished building.\n\nHere's a breakdown of the sequence:\n1.  **Initial State:** A tool belt or pouch, dark with some yellow accents, is lying on the OSB floor in front of the person's feet. The person is wearing jeans and black sneakers with white soles.\n2.  **Putting on the Tool Belt:** The person then bends down (implied by the movement of the tool belt closer to their body) and puts on the tool belt.\n3.  **Securing the Belt:** Their hands become visible as they adjust and secure the tool belt around their waist.\n4.  **Ready to Work:** By the end of the video, the tool belt is fully worn around the person's waist, and they are standing upright, seemingly ready to begin their work on the construction site.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "8s - 16s",
+      "raw_response": "This video shows a first-person perspective from someone on a construction site, likely during the framing stage of a house.\n\nHere's a breakdown of what's happening:\n\n1.  **Setting:** The scene is indoors, but the walls are not yet finished, revealing wooden studs and open spaces where windows and doors will be. The floor is made of Oriented Strand Board (OSB). Bright sunlight streams in through the openings.\n2.  **Camera Perspective:** The camera is mounted on a person, looking down at their feet, legs, and hands, which are wearing work boots and a tool belt.\n3.  **Activity:**\n    *   In the initial frames, the person wearing the camera appears to be standing, surveying the work area, or perhaps preparing for a task. Their hands are visible, sometimes gesturing.\n    *   In the later frames, another worker is visible on the left side of the frame. This worker is actively engaged in cutting lumber on a sawhorse setup, with many cut pieces of wood scattered around.\n4.  **Tools and Materials:** Various construction tools are visible on the floor, including a ladder, power drills, a broom-like tool, and numerous pieces of lumber. A long wooden plank is also lying on the floor.\n\nIn summary, the video captures active construction work, specifically the framing of a building, from the point of view of one of the workers.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "16s - 24s",
+      "raw_response": "The video shows the interior of a house under construction, specifically an upper floor that is being framed. The room is made of wood, with exposed studs, beams, and a plywood subfloor. Large openings for windows offer a view of a dense forest outside. Strong sunlight streams in, casting long, diagonal shadows across the floor.\n\nIn the center of the room, a large stack of lumber is organized on supports. A person's hands are visible in the foreground, pulling a long piece of wood from this stack. In the background, another individual is actively working on the floor, kneeling and seemingly cutting or fastening a piece of lumber. The scene depicts active progress in the framing stage of building, with workers handling materials and constructing the wooden structure.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "24s - 32s",
+      "raw_response": "The video shows the interior of a house that is currently under construction, specifically during the framing phase.\n\nHere's a breakdown of what's happening:\n*   **Setting:** The house has its wooden framework (studs, joists, rafters) largely in place, but no drywall, insulation, or finishes are visible. The subfloor is laid.\n*   **Materials:** Piles of lumber are stacked on the floor, ready to be used.\n*   **Activity:** A construction worker, wearing a hat and dark shirt, is visible in the background. He is actively cutting pieces of wood using a circular saw on a sawhorse.\n*   **Perspective:** The video is shot with a wide-angle lens, likely from a camera mounted on someone moving through the space, providing a dynamic view of the construction site.\n*   **Lighting:** Natural light streams in through the open window and door frames, casting shadows across the wooden floor.\n\nIn essence, it's a glimpse into the active framing process of a new house.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "32s - 40s",
+      "raw_response": "The video shows a first-person point of view (POV) of someone working inside a building under construction.\n\nHere's a breakdown of what's happening:\n*   **Setting:** The person is inside a partially framed wooden structure. The walls are framed with wooden studs, and the floor is made of OSB (Oriented Strand Board).\n*   **Action:** The person is actively handling and organizing various lengths of lumber (wooden planks/beams) on the OSB floor. They pick up pieces, move them, and lay them out, seemingly sorting them or preparing them for assembly or cutting.\n*   **Purpose:** The actions suggest the person is engaged in the framing process of the building, preparing materials for walls, floors, or other structural components.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "40s - 48s",
+      "raw_response": "This video shows a first-person perspective (likely from a camera mounted on a person's head or chest) inside a house under construction.\n\nHere's a breakdown of what's happening:\n\n1.  **Setting:** The scene is an unfinished room with exposed wooden framing (studs, joists) for walls and ceilings. The floor is made of OSB (Oriented Strand Board). Sunlight streams in through window openings, which do not yet have glass.\n2.  **Action:** The person filming is actively working with lumber. They are seen picking up individual pieces of wood (likely 2x4s or similar framing lumber) from a pile on the floor and arranging them. This action is typical for laying out and assembling wall sections on the subfloor before raising them into place.\n3.  **Environment:** Other construction materials and tools are visible in the background, including more lumber, a black bucket with a cord, and what appears to be a ladder. Another person's legs are briefly visible in the background, suggesting multiple workers are on site.\n\nIn essence, the video captures a worker in the process of framing a house, specifically handling and arranging lumber on the subfloor.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "48s - 56s",
+      "raw_response": "This video shows the interior of a house under construction, specifically during the **framing phase**.\n\nHere's a breakdown of what's happening:\n\n1.  **Construction Site:** The setting is an unfinished house with exposed wood framing for walls, ceilings, and roof structures. The floor is covered with OSB (Oriented Strand Board). Windows are cut out, revealing trees outside.\n2.  **Lumber Layout:** Several long pieces of lumber (likely 2x4s or similar dimensions) are laid out on the OSB floor. They appear to be arranged for assembly, possibly for a wall section or another structural component.\n3.  **Handling Lumber:** In some shots, a person's hands are visible, holding and handling a piece of lumber. One end of the lumber has a distinctive blue paint marking, common for identifying lumber grade or treatment.\n4.  **Overall Activity:** The video captures the process of preparing and arranging lumber, which is a crucial step in building the skeletal structure of a house. The various angles show the extent of the framing already completed and the materials being used for ongoing work.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "56s - 64s",
+      "raw_response": "This video shows a first-person perspective of someone working on a construction site, likely framing a wall.\n\nHere's a breakdown of what's happening:\n\n1.  **Laying out lumber:** The video begins with four long pieces of lumber (likely 2x4s or similar studs) laid out parallel on an OSB (Oriented Strand Board) subfloor.\n2.  **Positioning a plate:** The person then brings in another, longer piece of lumber (which will serve as a top or bottom plate for the wall) and positions it perpendicularly across the four parallel pieces.\n3.  **Alignment and marking:** The person's hands are visible, carefully aligning the horizontal plate with the vertical studs. Pencil marks are visible on the lumber, indicating the pre-measured positions where the studs will be attached to the plate.\n4.  **Preparing to fasten:** The person is holding a hammer or pry bar in their right hand, poised to begin fastening the pieces together, likely with nails.\n\nThe overall activity is the **assembly of a wall section** on the floor, which will then be lifted into place as part of the building's frame. In the background, other framed walls are already visible, indicating an ongoing construction project.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "64s - 72s",
+      "raw_response": "The video shows a first-person perspective of someone working on a construction site, specifically engaged in rough framing.\n\nHere's a breakdown of what's happening:\n1.  **Initial Setup:** The person is holding a long piece of lumber, likely a top or bottom plate for a wall, and is standing on a plywood subfloor. Other framed walls are visible around them.\n2.  **Layout:** They lay the long piece of lumber down on the subfloor. Several shorter pieces of lumber (likely studs or cripples) are also visible nearby.\n3.  **Assembly:** The person then arranges the shorter pieces of lumber, positioning them against or under the longer piece.\n4.  **Fastening:** Using a tool that appears to be a framing nailer or hammer, they begin to attach the shorter pieces to the longer piece, effectively assembling a section of a wall or a similar structural component.\n\nThe video captures the process of laying out and fastening lumber to build part of a wooden frame for a building.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "72s - 80s",
+      "raw_response": "The video, shot from a first-person, overhead perspective looking down at the worker's feet and hands, shows a person engaged in construction work.\n\nHere's a breakdown of what's happening:\n\n1.  **Initial Action (Frames 1-2):** The worker is standing over a long piece of dimensional lumber (likely a 2x4 or 2x6) lying on a plywood or OSB subfloor. They are using a hammer or pry bar. In the first frame, they appear to be prying something (possibly a nail or a temporary fastener) from the wood. In the second frame, they might be tapping something into place or adjusting the wood with the hammer.\n2.  **Moving Lumber (Frames 3-4):** The worker then begins to move the long piece of lumber. They drag it across the subfloor, repositioning it. Other pieces of lumber are visible on the floor, suggesting they are laying out or assembling components for framing, possibly a wall section, on the floor before it's tilted up.\n3.  **Setting:** The environment is an unfinished building, characterized by exposed wood framing (walls, ceiling joists/rafters) and the plywood/OSB subfloor.\n\nIn essence, the video shows a construction worker handling and positioning lumber, likely as part of the framing process for a building.",
+      "activity": "unknown",
+      "productivity": "unknown",
+      "confidence": 0.0
+    }
+  ],
+  "spatial_memory": [],
+  "summary": {
+    "activity_distribution": {
+      "unknown": 10
+    },
+    "productivity": {
+      "productive_pct": 0.0,
+      "transitional_pct": 0.0,
+      "idle_pct": 0.0
+    },
+    "total_segments": 10,
+    "unique_hazards": [],
+    "risk_levels_seen": [],
+    "idle_stretches": []
+  }
+}

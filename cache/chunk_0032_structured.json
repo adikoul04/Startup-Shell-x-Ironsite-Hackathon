@@ -1,0 +1,77 @@
+{
+  "timestamp_range": "256s - 264s",
+  "hands": "The worker's right hand is holding a pencil (frame 3) then a utility knife (frame 4), marking a piece of wood. The left hand is holding a small piece of wood against a larger lumber piece on the floor.",
+  "tools": [
+    "Pencil (in hand)",
+    "Utility knife (in hand)",
+    "Power drill (on floor near lumber frame)",
+    "Tool belts (on worker's waist)"
+  ],
+  "materials": [
+    "Lumber pieces (in hands, on floor as a partially assembled wall frame, loose on floor)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Loose lumber pieces (trip hazard)",
+      "Power cord (trip hazard)",
+      "Missing hard hat",
+      "Missing safety glasses",
+      "Improper footwear (sneakers)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Numerous loose lumber pieces and a power cord on the floor pose trip hazards. The worker is not wearing a hard hat or safety glasses, and their footwear (sneakers) is not ideal for a construction site."
+  },
+  "activity": "measuring",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively measuring and marking lumber pieces on the floor, which is a productive step in the framing process. The environment is clearly a wood frame structure in the framing phase on an upper floor.",
+  "spatial_memory": [
+    {
+      "object": "Wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "Partially assembled wall frame",
+      "location": "mid-ground, on floor",
+      "type": "landmark"
+    },
+    {
+      "object": "Power drill",
+      "location": "on floor, near the frame",
+      "type": "tool"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "Windows",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "Trees",
+      "location": "outside windows",
+      "type": "landmark"
+    },
+    {
+      "object": "Power cord",
+      "location": "on floor, near drill",
+      "type": "hazard"
+    }
+  ]
+}

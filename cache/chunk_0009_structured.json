@@ -1,0 +1,63 @@
+{
+  "timestamp_range": "72s - 80s",
+  "hands": "The worker's right hand is holding a hammer and striking a piece of lumber. The left hand appears to be holding the lumber in place. The worker is standing and looking down at the task.",
+  "tools": [
+    "hammer (in worker's right hand)"
+  ],
+  "materials": [
+    "lumber pieces (on floor, being fastened)",
+    "OSB subfloor (underfoot)",
+    "wood frame walls (background, right and left)",
+    "roof trusses (overhead)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "loose lumber (trip hazard)",
+      "missing PPE (no hard hat, no safety glasses visible)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Loose lumber pieces are scattered on the OSB subfloor, posing trip hazards. The worker is not visibly wearing a hard hat or safety glasses, which are standard PPE for construction sites."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively using a hammer to fasten lumber, which is a direct framing activity. The presence of loose lumber and lack of visible PPE contribute to the medium risk level.",
+  "spatial_memory": [
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark"
+    },
+    {
+      "object": "roof trusses",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard"
+    },
+    {
+      "object": "hammer",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "lumber pieces",
+      "location": "on floor, being fastened",
+      "type": "material"
+    }
+  ]
+}

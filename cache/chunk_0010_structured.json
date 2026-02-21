@@ -1,0 +1,85 @@
+{
+  "timestamp_range": "80s - 88s",
+  "hands": "The worker's left hand is holding and pressing down a long piece of lumber on the OSB subfloor. The right hand is also assisting in positioning the lumber, then moves slightly away, possibly reaching for a tool or another piece of material.",
+  "tools": [
+    "Circular saw (on sawhorse, far background, right)",
+    "Broom (on floor, far background, right)",
+    "Corded tool (on floor, far background, right)",
+    "Sawhorse (far background, right)",
+    "Ladder (left background)"
+  ],
+  "materials": [
+    "Lumber pieces (on floor, foreground, center, and background)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Loose lumber pieces (on floor, foreground and center, creating trip hazards)",
+      "Missing PPE (no hard hat or safety glasses visible on worker)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Numerous loose lumber pieces are scattered across the subfloor, posing significant trip hazards. The worker is not visibly wearing a hard hat or safety glasses, which are standard PPE on construction sites."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively positioning lumber on the subfloor, which is a direct task related to framing. The presence of other laid-out lumber pieces suggests preparation for wall assembly or similar framing work.",
+  "spatial_memory": [
+    {
+      "object": "wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark"
+    },
+    {
+      "object": "roof trusses",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard"
+    },
+    {
+      "object": "circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "broom",
+      "location": "on floor, far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "sawhorse",
+      "location": "far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "ladder",
+      "location": "left background",
+      "type": "tool"
+    },
+    {
+      "object": "other worker",
+      "location": "far background, right",
+      "type": "person"
+    }
+  ]
+}

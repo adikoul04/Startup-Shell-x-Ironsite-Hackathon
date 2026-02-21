@@ -1,0 +1,81 @@
+{
+  "timestamp_range": "216s - 224s",
+  "hands": "Worker's left hand is holding a piece of lumber (frame 1) and then managing the red air hose (frames 2-4). The right hand is holding a nail gun.",
+  "tools": [
+    "Nail gun (in worker's right hand)"
+  ],
+  "materials": [
+    "Lumber piece (in worker's left hand in frame 1, on floor in frame 4)",
+    "Red air hose (connected to nail gun, extending downwards, held by left hand in frames 2-4, on floor in frame 4)",
+    "OSB subfloor (under worker's feet)",
+    "Wood framing (partially assembled walls on floor, ceiling joists/framing above)",
+    "Loose lumber pieces (on floor, visible in frame 4)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Red air hose (trip hazard on floor)",
+      "Loose lumber pieces (trip hazard on floor)",
+      "Proximity to power tools (nail gun in use)",
+      "Improper footwear (sneakers visible, not ideal for construction)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The red air hose and loose lumber on the OSB subfloor present trip hazards. The worker is actively using a nail gun, which is a power tool requiring caution. The worker's footwear appears to be sneakers, which may not provide adequate protection on a construction site."
+  },
+  "activity": "drilling/fastening",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is holding a nail gun and lumber, then managing the air hose, indicating preparation for or active fastening of wood components. The presence of partially assembled wall frames on the floor further supports framing/fastening activity.",
+  "spatial_memory": [
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "Newly laid out wall frame",
+      "location": "on floor, left mid-ground",
+      "type": "landmark"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "Nail gun",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "Red air hose",
+      "location": "on floor, extending from nail gun",
+      "type": "hazard"
+    },
+    {
+      "object": "Other worker",
+      "location": "background right (frame 4)",
+      "type": "person"
+    },
+    {
+      "object": "Workbench/sawhorses",
+      "location": "background right (frame 4)",
+      "type": "landmark"
+    },
+    {
+      "object": "Trash can",
+      "location": "background mid-right (frame 4)",
+      "type": "landmark"
+    }
+  ]
+}

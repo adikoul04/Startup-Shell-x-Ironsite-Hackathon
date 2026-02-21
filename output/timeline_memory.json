@@ -1,0 +1,1464 @@
+{
+  "mode": "memory",
+  "total_frames": 202,
+  "total_chunks": 10,
+  "timeline": [
+    {
+      "timestamp_range": "0s - 8s",
+      "raw_response": "```json\n{\n  \"timestamp_range\": \"0s - 6s\",\n  \"hands\": \"In the initial frames, hands are not clearly visible. In frame 3, the worker's hands reach down to pick up a tool belt from the floor. In frame 4, the worker's hands are adjusting or resting on the tool belt, which is now worn.\",\n  \"tools\": [\n    \"Tool belt/pouch (on floor in frames 1-2, being put on in frame 3, on worker in frame 4)\",\n    \"Unidentifiable tools within the tool belt (on worker in frame 4)\"\n  ],\n  \"materials\": [\n    \"OSB sheets (floor surface)\",\n    \"Wood framing lumber (on floor, left side, and visible as joists below)\",\n    \"Green flexible pipe/hose (on floor, left side)\",\n    \"Metal box/fixture (on floor, left side)\"\n  ],\n  \"environment\": {\n    \"structure_type\": \"wood frame\",\n    \"phase\": \"framing\",\n    \"level\": \"upper floor\",\n    \"surface\": \"OSB subfloor\"\n  },\n  \"hazards\": {\n    \"items\": [\n      \"Loose lumber (trip hazard on floor)\",\n      \"Green pipe/hose (trip hazard on floor)\",\n      \"Improper footwear (worker is wearing sneakers instead of work boots)\",\n      \"Potential fall hazards (implied by upper floor framing, though no immediate unguarded edges are visible in the narrow camera view)\"\n    },\n    \"risk_level\": \"MEDIUM\",\n    \"details\": \"The worker's footwear (sneakers) is inappropriate for a construction site, posing a risk of foot injury. Loose lumber and a hose on the floor present minor trip hazards. While no direct fall hazards are visible, working on an upper floor during framing inherently carries this risk.\"\n  },\n  \"activity\": \"carrying/moving\",\n  \"productivity\": \"TRANSITIONAL\",\n  \"confidence\": 0.95,\n  \"reasoning\": \"The worker is actively picking up and putting on a tool belt, which is a preparatory action for work, classifying it as transitional and involving carrying/moving of personal equipment.\",\n  \"spatial_memory\": [\n    {\n      \"object\": \"OSB subfloor\",\n      \"location\": \"below worker\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"Wood framing/joists\",\n      \"location\": \"left side, below floor\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"Green pipe/hose\",\n      \"location\": \"left side on floor\",\n      \"type\": \"hazard\"\n    },\n    {\n      \"object\": \"Metal box/fixture\",\n      \"location\": \"left side on floor\",\n      \"type\": \"landmark\"\n    },\n    {\n      \"object\": \"Loose lumber\",\n      \"location\": \"on floor\",\n      \"type\": \"hazard\"\n    },\n    {\n      \"object\": \"Tool belt\",\n      \"location\": \"on worker\",\n      \"type\": \"tool\"\n    },\n    {\n      \"object\": \"Worker's footwear (sneakers)\",\n      \"location\": \"on worker's feet\",\n      \"type\": \"hazard\"\n    }\n  ]\n}\n```",
+      "parse_error": "Expecting ',' delimiter: line 26 column 5 (char 1180)",
+      "activity": "parse_error",
+      "productivity": "unknown",
+      "confidence": 0.0
+    },
+    {
+      "timestamp_range": "8s - 16s",
+      "hands": "In frames 1-3, the worker's right hand is raised, then lowered, with fingers slightly splayed, appearing to point or gesture. The left hand is not clearly visible. In frame 4, both hands are actively gripping and adjusting pieces of lumber on a sawhorse.",
+      "tools": [
+        "Tool belt (on worker's waist)",
+        "Ladder (right side, leaning against wall)",
+        "Push broom/floor scraper (on floor, center-right)",
+        "Cordless drill/driver (on floor, center-right, near ladder)",
+        "Another cordless drill/driver (on floor, center-right, near ladder)",
+        "Sawhorse (left side, in frame 4)"
+      ],
+      "materials": [
+        "OSB subfloor (under worker's feet)",
+        "Lumber (various pieces on sawhorse, on floor, forming wall frames and roof trusses)",
+        "Wood framing (visible as walls and roof trusses in the background)",
+        "Small pieces of lumber/cutoffs (on floor, near sawhorse in frame 4)",
+        "Long piece of lumber (on floor, center, in frames 1-3)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB (Oriented Strand Board) subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Trip hazards (loose lumber pieces on floor, tools on floor)",
+          "Missing PPE (no hard hat, no safety glasses visible)",
+          "Potential fall hazards (open framing on an upper floor, though no immediate unguarded edges are in the direct path)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Loose lumber and tools on the floor present trip hazards. The worker is not visibly wearing a hard hat or safety glasses, which are crucial on a framing site. The open nature of the framing on an upper floor implies inherent fall risks, even if not directly in the camera's view."
+      },
+      "activity": "framing",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.9,
+      "reasoning": "The worker transitions from surveying the work area to actively handling lumber on a sawhorse, which is a direct part of the framing process. This engagement with materials for construction makes the activity productive.",
+      "spatial_memory": [
+        {
+          "object": "Wood frame walls",
+          "location": "background, right, left",
+          "type": "landmark",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Windows",
+          "location": "background",
+          "type": "landmark",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "left side",
+          "type": "tool",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Ladder",
+          "location": "right side",
+          "type": "tool",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, near sawhorse, center",
+          "type": "hazard",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Tools on floor (broom, drills)",
+          "location": "center-right",
+          "type": "hazard",
+          "first_seen": "8s - 16s"
+        },
+        {
+          "object": "Other worker",
+          "location": "far background, left",
+          "type": "person",
+          "first_seen": "8s - 16s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "16s - 24s",
+      "hands": "The worker's right hand is gripping and pulling a piece of lumber from a large stack. The left hand is visible, appearing to guide or support the lumber as it's being pulled.",
+      "tools": [],
+      "materials": [
+        "Lumber stack (center, foreground, on a makeshift support)",
+        "OSB subfloor (underfoot)",
+        "Wood frame walls (background, right, left)",
+        "Roof trusses (overhead)",
+        "Loose lumber pieces (on floor, left background)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Trip hazard (loose lumber pieces on floor, left background)"
+        ],
+        "risk_level": "LOW",
+        "details": "The primary immediate hazard is loose lumber on the floor in the background, which could be a trip hazard. The worker is engaged in manual material handling, which carries inherent risks of strains if not performed correctly, but no critical environmental hazards are present in the immediate vicinity."
+      },
+      "activity": "carrying/moving",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively pulling a piece of lumber from a large stack, indicating the task of moving materials. The environment is a wood-framed structure on an upper floor during the framing phase.",
+      "spatial_memory": [
+        {
+          "object": "Wood frame walls",
+          "location": "background, right, left",
+          "type": "landmark",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Windows",
+          "location": "background",
+          "type": "landmark",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "left side, far background",
+          "type": "tool",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Ladder",
+          "location": "right side, far background",
+          "type": "tool",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, left background",
+          "type": "hazard",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Tools on floor (broom, drills)",
+          "location": "center-right, far background",
+          "type": "hazard",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Other worker",
+          "location": "far background, left",
+          "type": "person",
+          "first_seen": "16s - 24s"
+        },
+        {
+          "object": "Lumber stack",
+          "location": "center, foreground",
+          "type": "material",
+          "first_seen": "16s - 24s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "24s - 32s",
+      "hands": "The worker's right hand briefly appears in the bottom right of the final frame, suggesting they are holding the camera or moving it. The worker is in motion.",
+      "tools": [
+        "Sawhorse (center-right, background)",
+        "Circular saw (on sawhorse, center-right, background)",
+        "Broom (on floor, center-right, background)",
+        "Corded tool (on floor, center-right, background)",
+        "Ladder (left background)"
+      ],
+      "materials": [
+        "Lumber stack (foreground, center-left)",
+        "Loose lumber pieces (on floor, center-right, background)",
+        "OSB subfloor (underfoot)",
+        "Wood frame walls (background, left, right)",
+        "Roof trusses (overhead)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Loose lumber pieces (trip hazard on floor)",
+          "Corded tool and cord (trip hazard on floor)",
+          "Broom (trip hazard on floor)",
+          "Proximity to power tools (other worker using a circular saw)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Multiple trip hazards from loose lumber, tools, and cords on the subfloor. Another worker is actively using a circular saw in the background, requiring awareness."
+      },
+      "activity": "walking",
+      "productivity": "TRANSITIONAL",
+      "confidence": 0.95,
+      "reasoning": "The worker is moving through the framed structure, passing by a stack of lumber and another worker. The camera's movement indicates walking rather than a stationary task.",
+      "spatial_memory": [
+        {
+          "object": "Wood frame walls",
+          "location": "background, right, left",
+          "type": "landmark",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Windows",
+          "location": "background",
+          "type": "landmark",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "center-right, background",
+          "type": "tool",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Circular saw",
+          "location": "on sawhorse, center-right, background",
+          "type": "tool",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Broom",
+          "location": "on floor, center-right, background",
+          "type": "tool",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Corded tool",
+          "location": "on floor, center-right, background",
+          "type": "tool",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Ladder",
+          "location": "left background",
+          "type": "tool",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, center-right, background",
+          "type": "hazard",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Lumber stack",
+          "location": "foreground, center-left",
+          "type": "material",
+          "first_seen": "24s - 32s"
+        },
+        {
+          "object": "Other worker",
+          "location": "center-right, background",
+          "type": "person",
+          "first_seen": "24s - 32s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "32s - 40s",
+      "hands": "The worker's right hand is touching and manipulating pieces of lumber on the floor. The left hand is not clearly visible.",
+      "tools": [],
+      "materials": [
+        "Loose lumber pieces (on floor, center and left foreground)",
+        "OSB subfloor (underfoot)",
+        "Wood frame walls (background, right and left)",
+        "Roof trusses (overhead)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Loose lumber pieces on the floor (trip hazard)",
+          "Missing PPE (no hard hat, safety glasses, or gloves visible)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Multiple pieces of lumber are scattered on the OSB subfloor, posing trip hazards. The worker does not appear to be wearing standard PPE such as a hard hat, safety glasses, or gloves."
+      },
+      "activity": "carrying/moving",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively interacting with and moving lumber pieces on the floor, indicating a productive task related to material handling within the framing phase.",
+      "spatial_memory": [
+        {
+          "object": "Windows",
+          "location": "background",
+          "type": "landmark",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Wood frame walls",
+          "location": "background, right and left",
+          "type": "landmark",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, center and left foreground",
+          "type": "hazard",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "far background, right",
+          "type": "tool",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Circular saw",
+          "location": "on sawhorse, far background, right",
+          "type": "tool",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Broom",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "32s - 40s"
+        },
+        {
+          "object": "Corded tool",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "32s - 40s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "40s - 48s",
+      "hands": "The worker's right hand is actively touching, gripping, and moving pieces of lumber on the OSB subfloor.",
+      "tools": [
+        "Ladder (left background)",
+        "Sawhorse (far background, right)",
+        "Circular saw (on sawhorse, far background, right)",
+        "Broom (on floor, far background, right)",
+        "Corded tool (on floor, far background, right)"
+      ],
+      "materials": [
+        "Loose lumber pieces (on floor, foreground and center)",
+        "OSB subfloor (underfoot)",
+        "Wood frame walls (background, right and left)",
+        "Roof trusses (overhead)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Loose lumber pieces (trip hazard, on floor in foreground and center)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Numerous pieces of lumber are scattered on the OSB subfloor, posing a trip hazard, especially while the worker is focused on moving other lumber."
+      },
+      "activity": "carrying/moving",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively handling and moving lumber pieces on the floor, indicating a productive task of organizing or preparing materials for framing. The presence of scattered lumber creates a trip hazard.",
+      "spatial_memory": [
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Windows",
+          "location": "background",
+          "type": "landmark",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "far background, right",
+          "type": "tool",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Circular saw",
+          "location": "on sawhorse, far background, right",
+          "type": "tool",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Broom",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Corded tool",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Ladder",
+          "location": "left background",
+          "type": "tool",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, foreground and center",
+          "type": "hazard",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Wood frame walls",
+          "location": "background, right and left",
+          "type": "landmark",
+          "first_seen": "40s - 48s"
+        },
+        {
+          "object": "Other worker",
+          "location": "far background, right",
+          "type": "person",
+          "first_seen": "40s - 48s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "48s - 56s",
+      "hands": "In frames 2 and 4, the worker's hands are holding a piece of lumber. In frames 1 and 3, the hands are not visible, but the worker appears to be standing and observing the materials on the floor.",
+      "tools": [
+        "Sawhorse (far background, right)",
+        "Circular saw (on sawhorse, far background, right)",
+        "Broom (on floor, far background, right)",
+        "Corded tool (on floor, far background, right)"
+      ],
+      "materials": [
+        "Loose lumber pieces (on floor, center and left foreground)",
+        "Lumber piece (in worker's hands, frames 2 and 4)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Trip hazards (loose lumber pieces on the OSB subfloor)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Several pieces of lumber are scattered on the OSB subfloor in the immediate work area, posing a trip hazard, especially while the worker is handling materials."
+      },
+      "activity": "carrying/moving",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively handling and moving lumber pieces on a framed upper floor, indicating productive work in the framing phase. The presence of loose lumber on the floor creates a trip hazard.",
+      "spatial_memory": [
+        {
+          "object": "Windows",
+          "location": "background",
+          "type": "landmark",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Wood frame walls",
+          "location": "background, right and left",
+          "type": "landmark",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, foreground and center",
+          "type": "hazard",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "far background, right",
+          "type": "tool",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Circular saw",
+          "location": "on sawhorse, far background, right",
+          "type": "tool",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Broom",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Corded tool",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Ladder",
+          "location": "left background",
+          "type": "tool",
+          "first_seen": "48s - 56s"
+        },
+        {
+          "object": "Other worker",
+          "location": "far background, right",
+          "type": "person",
+          "first_seen": "48s - 56s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "56s - 64s",
+      "hands": "The worker's left hand is holding and adjusting a long piece of lumber on the floor. The right hand is holding a hammer.",
+      "tools": [
+        "Hammer (in right hand)"
+      ],
+      "materials": [
+        "Lumber pieces (on floor, foreground and center)",
+        "OSB subfloor (underfoot)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Loose lumber pieces (trip hazard)",
+          "Missing PPE (no hard hat or safety glasses visible)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Loose lumber pieces on the floor pose a trip hazard. The worker is not visibly wearing a hard hat or safety glasses, which are essential PPE on a construction site."
+      },
+      "activity": "framing",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively manipulating lumber pieces on the floor, which are being laid out for wall assembly, indicating framing activity. The presence of a hammer further supports this.",
+      "spatial_memory": [
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Wood frame walls",
+          "location": "background, right and left",
+          "type": "landmark",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Loose lumber pieces",
+          "location": "on floor, foreground and center",
+          "type": "hazard",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "far background, right",
+          "type": "tool",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Circular saw",
+          "location": "on sawhorse, far background, right",
+          "type": "tool",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Broom",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Corded tool",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Ladder",
+          "location": "left background",
+          "type": "tool",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Other worker",
+          "location": "far background, right",
+          "type": "person",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Hammer",
+          "location": "in worker's right hand",
+          "type": "tool",
+          "first_seen": "56s - 64s"
+        },
+        {
+          "object": "Lumber pieces",
+          "location": "on floor, foreground and center",
+          "type": "material",
+          "first_seen": "56s - 64s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "64s - 72s",
+      "hands": "Worker's right hand is holding a hammer. In the first frame, the left hand was holding a piece of lumber, but it is not visible in subsequent frames. The worker appears to be positioning or nailing lumber on the floor.",
+      "tools": [
+        "Hammer (in worker's right hand)",
+        "Sawhorse (far background, right)",
+        "Circular saw (on sawhorse, far background, right)",
+        "Broom (on floor, far background, right)",
+        "Corded tool (on floor, far background, right)",
+        "Ladder (left background)"
+      ],
+      "materials": [
+        "Lumber pieces (on floor, foreground and center)",
+        "OSB subfloor (underfoot)",
+        "Wood frame walls (background, right and left)",
+        "Roof trusses (overhead)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "Loose lumber pieces (trip hazard on floor)",
+          "Missing hard hat",
+          "Missing safety glasses",
+          "Inadequate footwear (sneakers)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Numerous loose lumber pieces are scattered on the OSB subfloor, posing a significant trip hazard. The worker is not visibly wearing a hard hat or safety glasses, and appears to be wearing sneakers instead of appropriate work boots, increasing risk in a construction environment."
+      },
+      "activity": "framing",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively engaged in framing, holding a hammer and working with lumber on the subfloor. The environment clearly shows a wood frame structure in the framing phase.",
+      "spatial_memory": [
+        {
+          "object": "Hammer",
+          "location": "in worker's right hand",
+          "type": "tool",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Lumber pieces",
+          "location": "on floor, foreground and center",
+          "type": "material",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Wood frame walls",
+          "location": "background, right and left",
+          "type": "landmark",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Sawhorse",
+          "location": "far background, right",
+          "type": "tool",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Circular saw",
+          "location": "on sawhorse, far background, right",
+          "type": "tool",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Broom",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Corded tool",
+          "location": "on floor, far background, right",
+          "type": "tool",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Ladder",
+          "location": "left background",
+          "type": "tool",
+          "first_seen": "64s - 72s"
+        },
+        {
+          "object": "Other worker",
+          "location": "far background, right",
+          "type": "person",
+          "first_seen": "64s - 72s"
+        }
+      ]
+    },
+    {
+      "timestamp_range": "72s - 80s",
+      "hands": "The worker's right hand is holding a hammer and striking a piece of lumber. The left hand appears to be holding the lumber in place. The worker is standing and looking down at the task.",
+      "tools": [
+        "hammer (in worker's right hand)"
+      ],
+      "materials": [
+        "lumber pieces (on floor, being fastened)",
+        "OSB subfloor (underfoot)",
+        "wood frame walls (background, right and left)",
+        "roof trusses (overhead)"
+      ],
+      "environment": {
+        "structure_type": "wood frame",
+        "phase": "framing",
+        "level": "upper floor",
+        "surface": "OSB subfloor"
+      },
+      "hazards": {
+        "items": [
+          "loose lumber (trip hazard)",
+          "missing PPE (no hard hat, no safety glasses visible)"
+        ],
+        "risk_level": "MEDIUM",
+        "details": "Loose lumber pieces are scattered on the OSB subfloor, posing trip hazards. The worker is not visibly wearing a hard hat or safety glasses, which are standard PPE for construction sites."
+      },
+      "activity": "framing",
+      "productivity": "PRODUCTIVE",
+      "confidence": 0.95,
+      "reasoning": "The worker is actively using a hammer to fasten lumber, which is a direct framing activity. The presence of loose lumber and lack of visible PPE contribute to the medium risk level.",
+      "spatial_memory": [
+        {
+          "object": "OSB subfloor",
+          "location": "underfoot",
+          "type": "landmark",
+          "first_seen": "72s - 80s"
+        },
+        {
+          "object": "wood frame walls",
+          "location": "background, right and left",
+          "type": "landmark",
+          "first_seen": "72s - 80s"
+        },
+        {
+          "object": "roof trusses",
+          "location": "overhead",
+          "type": "landmark",
+          "first_seen": "72s - 80s"
+        },
+        {
+          "object": "loose lumber pieces",
+          "location": "on floor, foreground and center",
+          "type": "hazard",
+          "first_seen": "72s - 80s"
+        },
+        {
+          "object": "hammer",
+          "location": "in worker's right hand",
+          "type": "tool",
+          "first_seen": "72s - 80s"
+        },
+        {
+          "object": "lumber pieces",
+          "location": "on floor, being fastened",
+          "type": "material",
+          "first_seen": "72s - 80s"
+        }
+      ]
+    }
+  ],
+  "spatial_memory": [
+    {
+      "object": "Wood frame walls",
+      "location": "background, right, left",
+      "type": "landmark",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Windows",
+      "location": "background",
+      "type": "landmark",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "left side",
+      "type": "tool",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Ladder",
+      "location": "right side",
+      "type": "tool",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, near sawhorse, center",
+      "type": "hazard",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Tools on floor (broom, drills)",
+      "location": "center-right",
+      "type": "hazard",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, left",
+      "type": "person",
+      "first_seen": "8s - 16s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right, left",
+      "type": "landmark",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Windows",
+      "location": "background",
+      "type": "landmark",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "left side, far background",
+      "type": "tool",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Ladder",
+      "location": "right side, far background",
+      "type": "tool",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, left background",
+      "type": "hazard",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Tools on floor (broom, drills)",
+      "location": "center-right, far background",
+      "type": "hazard",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, left",
+      "type": "person",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Lumber stack",
+      "location": "center, foreground",
+      "type": "material",
+      "first_seen": "16s - 24s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right, left",
+      "type": "landmark",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Windows",
+      "location": "background",
+      "type": "landmark",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "center-right, background",
+      "type": "tool",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, center-right, background",
+      "type": "tool",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, center-right, background",
+      "type": "tool",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, center-right, background",
+      "type": "tool",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Ladder",
+      "location": "left background",
+      "type": "tool",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, center-right, background",
+      "type": "hazard",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Lumber stack",
+      "location": "foreground, center-left",
+      "type": "material",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Other worker",
+      "location": "center-right, background",
+      "type": "person",
+      "first_seen": "24s - 32s"
+    },
+    {
+      "object": "Windows",
+      "location": "background",
+      "type": "landmark",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, center and left foreground",
+      "type": "hazard",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "far background, right",
+      "type": "tool",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "32s - 40s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Windows",
+      "location": "background",
+      "type": "landmark",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "far background, right",
+      "type": "tool",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Ladder",
+      "location": "left background",
+      "type": "tool",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, right",
+      "type": "person",
+      "first_seen": "40s - 48s"
+    },
+    {
+      "object": "Windows",
+      "location": "background",
+      "type": "landmark",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "far background, right",
+      "type": "tool",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Ladder",
+      "location": "left background",
+      "type": "tool",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, right",
+      "type": "person",
+      "first_seen": "48s - 56s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "far background, right",
+      "type": "tool",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Ladder",
+      "location": "left background",
+      "type": "tool",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, right",
+      "type": "person",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Hammer",
+      "location": "in worker's right hand",
+      "type": "tool",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "material",
+      "first_seen": "56s - 64s"
+    },
+    {
+      "object": "Hammer",
+      "location": "in worker's right hand",
+      "type": "tool",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "material",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "far background, right",
+      "type": "tool",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Ladder",
+      "location": "left background",
+      "type": "tool",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, right",
+      "type": "person",
+      "first_seen": "64s - 72s"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark",
+      "first_seen": "72s - 80s"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark",
+      "first_seen": "72s - 80s"
+    },
+    {
+      "object": "roof trusses",
+      "location": "overhead",
+      "type": "landmark",
+      "first_seen": "72s - 80s"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard",
+      "first_seen": "72s - 80s"
+    },
+    {
+      "object": "hammer",
+      "location": "in worker's right hand",
+      "type": "tool",
+      "first_seen": "72s - 80s"
+    },
+    {
+      "object": "lumber pieces",
+      "location": "on floor, being fastened",
+      "type": "material",
+      "first_seen": "72s - 80s"
+    }
+  ],
+  "summary": {
+    "activity_distribution": {
+      "parse_error": 1,
+      "framing": 4,
+      "carrying/moving": 4,
+      "walking": 1
+    },
+    "productivity": {
+      "productive_pct": 80.0,
+      "transitional_pct": 10.0,
+      "idle_pct": 0.0
+    },
+    "total_segments": 10,
+    "unique_hazards": [
+      "Missing PPE (no hard hat, no safety glasses visible)",
+      "Missing PPE (no hard hat or safety glasses visible)",
+      "Trip hazard (loose lumber pieces on floor, left background)",
+      "Potential fall hazards (open framing on an upper floor, though no immediate unguarded edges are in the direct path)",
+      "Loose lumber pieces (trip hazard)",
+      "missing PPE (no hard hat, no safety glasses visible)",
+      "Loose lumber pieces on the floor (trip hazard)",
+      "Loose lumber pieces (trip hazard on floor)",
+      "Trip hazards (loose lumber pieces on floor, tools on floor)",
+      "Missing safety glasses",
+      "Broom (trip hazard on floor)",
+      "Loose lumber pieces (trip hazard, on floor in foreground and center)",
+      "Missing PPE (no hard hat, safety glasses, or gloves visible)",
+      "Inadequate footwear (sneakers)",
+      "loose lumber (trip hazard)",
+      "Proximity to power tools (other worker using a circular saw)",
+      "Missing hard hat",
+      "Corded tool and cord (trip hazard on floor)",
+      "Trip hazards (loose lumber pieces on the OSB subfloor)"
+    ],
+    "risk_levels_seen": [
+      "LOW",
+      "MEDIUM"
+    ],
+    "idle_stretches": []
+  }
+}

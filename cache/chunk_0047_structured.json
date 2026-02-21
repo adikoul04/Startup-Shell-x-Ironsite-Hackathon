@@ -1,0 +1,87 @@
+{
+  "timestamp_range": "376s - 384s",
+  "hands": "The worker's left hand is holding a piece of lumber/stud, positioning it against the partially assembled wall frame. The right hand is holding a nail gun, actively fastening the lumber to the frame.",
+  "tools": [
+    "nail gun (in right hand)",
+    "small metal square (in left hand, partially visible)",
+    "air hose (on floor, connected to nail gun)",
+    "drills (on floor, right, in background)"
+  ],
+  "materials": [
+    "loose lumber/studs (on floor, in front and to the left of the worker)",
+    "partially assembled wall frame (on floor, in front of the worker)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "air hose (trip hazard, on floor)",
+      "loose lumber/studs (trip hazard, on floor)",
+      "proximity to power tools (actively using a nail gun)",
+      "missing PPE (no safety glasses visible, footwear appears to be sneakers)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "There are multiple trip hazards from the air hose and loose lumber on the floor. The worker is actively using a nail gun, which poses a risk if not handled properly. Missing safety glasses is a concern for eye protection during fastening."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively engaged in assembling a wood frame wall by positioning and fastening studs with a nail gun, which is a core framing activity. The presence of tools, materials, and the partially built structure supports this classification.",
+  "spatial_memory": [
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "air hose",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "nail gun",
+      "location": "in right hand",
+      "type": "tool"
+    },
+    {
+      "object": "loose lumber/studs",
+      "location": "on floor, near wall frame",
+      "type": "material"
+    },
+    {
+      "object": "partially assembled wall frame",
+      "location": "on floor, in front of worker",
+      "type": "landmark"
+    },
+    {
+      "object": "drills",
+      "location": "on floor, right",
+      "type": "tool"
+    },
+    {
+      "object": "another worker",
+      "location": "background, left",
+      "type": "person"
+    },
+    {
+      "object": "trash can",
+      "location": "background, left",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "small metal square",
+      "location": "in left hand",
+      "type": "tool"
+    }
+  ]
+}

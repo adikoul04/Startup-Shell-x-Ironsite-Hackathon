@@ -1,0 +1,53 @@
+{
+  "timestamp_range": "264s - 272s",
+  "hands": "Worker's right hand is initially holding a pencil/marker to mark lumber, then holding and operating a nail gun to fasten pieces of lumber together. The left hand appears to be steadying or positioning lumber.",
+  "tools": [
+    "Pencil/marker (in worker's right hand in frame 1)",
+    "Nail gun (in worker's right hand in frames 2-3, on floor nearby in frame 4)",
+    "Air hose (connected to nail gun, on floor)"
+  ],
+  "materials": [
+    "Lumber pieces (being assembled on floor)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Trip hazard (air hose on floor)",
+      "Missing PPE (no safety glasses visible while operating a nail gun)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The air hose on the floor presents a trip hazard. More significantly, the worker is actively using a nail gun without visible eye protection, which is a critical safety oversight for this type of tool."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively marking and fastening lumber with a nail gun to construct a wood frame, indicating productive framing activity. The environment is clearly an upper floor with an OSB subfloor. Hazards include a trip hazard from the air hose and the absence of visible eye protection during nail gun operation.",
+  "spatial_memory": [
+    {
+      "object": "Partially assembled wall frame",
+      "location": "mid-ground, on floor",
+      "type": "landmark"
+    },
+    {
+      "object": "Air hose",
+      "location": "on floor, extending from nail gun",
+      "type": "hazard"
+    },
+    {
+      "object": "Nail gun",
+      "location": "in worker's hands/on floor nearby",
+      "type": "tool"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    }
+  ]
+}

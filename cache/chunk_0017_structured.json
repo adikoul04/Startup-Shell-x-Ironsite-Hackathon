@@ -1,0 +1,71 @@
+{
+  "timestamp_range": "136s - 144s",
+  "hands": "The worker's left hand is holding a piece of lumber overhead, positioning it against the OSB sheathing. The right hand is holding a nail gun, aiming it at the lumber to fasten it.",
+  "tools": [
+    "nail gun (in worker's right hand)"
+  ],
+  "materials": [
+    "lumber (overhead, being installed; also loose on floor)",
+    "OSB sheathing (overhead)",
+    "OSB subfloor (underfoot)",
+    "blue bracket (on lumber overhead)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "loose lumber pieces (on floor, trip hazard)",
+      "power cord (on floor, trip hazard)",
+      "missing hard hat",
+      "missing safety glasses",
+      "improper footwear (sneakers)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Loose lumber and a power cord on the floor present trip hazards. The worker is not wearing a hard hat, safety glasses, or appropriate safety footwear for a construction site."
+  },
+  "activity": "drilling/fastening",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.9,
+  "reasoning": "The worker is actively fastening lumber overhead using a nail gun, indicating a productive fastening activity within a wood-framed structure. Several safety concerns regarding PPE and trip hazards are present.",
+  "spatial_memory": [
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB sheathing",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background",
+      "type": "landmark"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "nail gun",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "lumber",
+      "location": "overhead, being installed",
+      "type": "material"
+    },
+    {
+      "object": "blue bracket",
+      "location": "on lumber overhead",
+      "type": "material"
+    }
+  ]
+}

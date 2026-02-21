@@ -1,0 +1,91 @@
+{
+  "timestamp_range": "56s - 64s",
+  "hands": "The worker's left hand is holding and adjusting a long piece of lumber on the floor. The right hand is holding a hammer.",
+  "tools": [
+    "Hammer (in right hand)"
+  ],
+  "materials": [
+    "Lumber pieces (on floor, foreground and center)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Loose lumber pieces (trip hazard)",
+      "Missing PPE (no hard hat or safety glasses visible)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Loose lumber pieces on the floor pose a trip hazard. The worker is not visibly wearing a hard hat or safety glasses, which are essential PPE on a construction site."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively manipulating lumber pieces on the floor, which are being laid out for wall assembly, indicating framing activity. The presence of a hammer further supports this.",
+  "spatial_memory": [
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, right and left",
+      "type": "landmark"
+    },
+    {
+      "object": "Roof trusses",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "Loose lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "hazard"
+    },
+    {
+      "object": "Sawhorse",
+      "location": "far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "Circular saw",
+      "location": "on sawhorse, far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "Broom",
+      "location": "on floor, far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "Corded tool",
+      "location": "on floor, far background, right",
+      "type": "tool"
+    },
+    {
+      "object": "Ladder",
+      "location": "left background",
+      "type": "tool"
+    },
+    {
+      "object": "Other worker",
+      "location": "far background, right",
+      "type": "person"
+    },
+    {
+      "object": "Hammer",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "Lumber pieces",
+      "location": "on floor, foreground and center",
+      "type": "material"
+    }
+  ]
+}

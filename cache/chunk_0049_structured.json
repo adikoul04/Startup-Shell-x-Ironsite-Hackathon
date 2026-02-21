@@ -1,0 +1,90 @@
+{
+  "timestamp_range": "392s - 400s",
+  "hands": "Both hands are holding and guiding a long piece of lumber (a stud or joist) into position within the overhead framing.",
+  "tools": [
+    "tool belt (on worker's waist)",
+    "nail gun (on floor, right - from spatial memory)",
+    "drills (on floor, right - from spatial memory)"
+  ],
+  "materials": [
+    "long piece of lumber/stud (in worker's hands)",
+    "OSB subfloor (underfoot)",
+    "wood frame walls (background, left and right, and overhead)",
+    "loose lumber/studs (on floor, near wall frame - from spatial memory)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "trip hazards (air hose, loose lumber, tools on floor)",
+      "overhead hazard (handling long lumber overhead)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The worker is handling a long piece of lumber overhead, which requires careful balance and coordination. There are also potential trip hazards on the floor from tools and materials."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively engaged in positioning a piece of lumber into the overhead wood frame structure, which is a direct framing activity.",
+  "spatial_memory": [
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right, and overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "tool belt",
+      "location": "on worker",
+      "type": "tool"
+    },
+    {
+      "object": "long piece of lumber/stud",
+      "location": "in worker's hands",
+      "type": "material"
+    },
+    {
+      "object": "another worker",
+      "location": "background, left (from spatial memory)",
+      "type": "person"
+    },
+    {
+      "object": "air hose",
+      "location": "on floor, right (from spatial memory)",
+      "type": "hazard"
+    },
+    {
+      "object": "nail gun",
+      "location": "on floor, right (from spatial memory)",
+      "type": "tool"
+    },
+    {
+      "object": "loose lumber/studs",
+      "location": "on floor, near wall frame (from spatial memory)",
+      "type": "material"
+    },
+    {
+      "object": "partially assembled wall frame",
+      "location": "on floor, in front of worker (from spatial memory)",
+      "type": "landmark"
+    },
+    {
+      "object": "drills",
+      "location": "on floor, right (from spatial memory)",
+      "type": "tool"
+    },
+    {
+      "object": "trash can",
+      "location": "background, left (from spatial memory)",
+      "type": "landmark"
+    }
+  ]
+}

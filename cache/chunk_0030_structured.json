@@ -1,0 +1,86 @@
+{
+  "timestamp_range": "240s - 248s",
+  "hands": "The main worker (black shirt) is holding a circular saw in his right hand and guiding the lumber with his left hand. The other worker (dark blue top) has her hands near her waist, possibly holding something or observing.",
+  "tools": [
+    "Circular saw (in main worker's right hand)",
+    "Tool belt (on main worker's waist)",
+    "Tool belt (on other worker's waist)",
+    "Broom (on floor, background right)"
+  ],
+  "materials": [
+    "Lumber pieces (being cut, on sawhorses, on floor)",
+    "OSB subfloor (under workers' feet)",
+    "Wood frame walls (background, left and right)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Loose lumber pieces (trip hazard on floor)",
+      "Proximity to power tool (circular saw in use)",
+      "Missing PPE (no visible safety glasses or hearing protection on either worker while saw is in use)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "The circular saw is actively being used to cut lumber. Neither worker appears to be wearing safety glasses or hearing protection, which is a significant safety concern when operating power tools. Loose lumber on the floor also presents trip hazards."
+  },
+  "activity": "cutting",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The main worker is actively operating a circular saw to cut a piece of lumber, indicating a clear cutting activity. The other worker is observing nearby.",
+  "spatial_memory": [
+    {
+      "object": "Main worker",
+      "location": "mid-ground, operating saw",
+      "type": "person"
+    },
+    {
+      "object": "Other worker",
+      "location": "left mid-ground, observing",
+      "type": "person"
+    },
+    {
+      "object": "Circular saw",
+      "location": "in main worker's hand",
+      "type": "tool"
+    },
+    {
+      "object": "Tool belts",
+      "location": "on both workers' waists",
+      "type": "tool"
+    },
+    {
+      "object": "Lumber pieces",
+      "location": "on sawhorses, on floor",
+      "type": "material"
+    },
+    {
+      "object": "Sawhorses/workbench",
+      "location": "mid-ground right",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "Wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "Broom",
+      "location": "background right",
+      "type": "tool"
+    },
+    {
+      "object": "Trash can",
+      "location": "background left",
+      "type": "landmark"
+    }
+  ]
+}

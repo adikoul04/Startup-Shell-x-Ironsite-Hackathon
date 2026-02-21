@@ -1,0 +1,65 @@
+{
+  "timestamp_range": "192s - 200s",
+  "hands": "Worker's left hand is holding and positioning a piece of lumber. The right hand is holding and operating a nail gun, aiming it at the lumber to fasten it.",
+  "tools": [
+    "Nail gun (in worker's right hand)",
+    "Red air hose (on floor, connected to nail gun)"
+  ],
+  "materials": [
+    "Lumber (in worker's left hand, on floor)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "Red air hose (trip hazard on floor)",
+      "Loose lumber pieces (trip hazard on floor)",
+      "Proximity to power tool (nail gun in active use)",
+      "Inadequate footwear (sneakers instead of work boots)",
+      "Missing PPE (no visible safety glasses or hearing protection)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Worker is actively using a nail gun, posing a risk of injury from fasteners or flying debris, especially without safety glasses. The air hose and loose lumber on the floor present trip hazards. The worker is wearing sneakers, which do not provide adequate foot protection for a construction site."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively engaged in assembling wood framing components using a nail gun, which is a core framing activity. The presence of lumber and OSB subfloor confirms the framing phase.",
+  "spatial_memory": [
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "nail gun",
+      "location": "in worker's right hand",
+      "type": "tool"
+    },
+    {
+      "object": "red air hose",
+      "location": "on floor, extending from nail gun",
+      "type": "hazard"
+    },
+    {
+      "object": "newly laid out wall frame",
+      "location": "on floor, left mid-ground",
+      "type": "landmark"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    }
+  ]
+}

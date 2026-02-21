@@ -1,0 +1,91 @@
+{
+  "timestamp_range": "184s - 192s",
+  "hands": "In frames 1-2, the worker's hands are holding and placing pieces of lumber onto sawhorses. In frame 3, hands are empty and by the worker's sides. In frame 4, the right hand is holding a piece of lumber.",
+  "tools": [
+    "nail gun (on floor, near worker's right foot in frames 1-2, then out of view)",
+    "red air hose (on floor, extending from nail gun)",
+    "grey bucket (left foreground, containing lumber)",
+    "sawhorses/workbench (center background in frames 1-2, then center foreground in frames 3-4)",
+    "broom and dustpan (right background)"
+  ],
+  "materials": [
+    "lumber (in worker's hands, on sawhorses, in grey bucket, laid out on floor for wall framing)",
+    "OSB subfloor (underfoot)"
+  ],
+  "environment": {
+    "structure_type": "wood frame",
+    "phase": "framing",
+    "level": "upper floor",
+    "surface": "OSB subfloor"
+  },
+  "hazards": {
+    "items": [
+      "loose lumber pieces (on floor, general area)",
+      "red air hose (on floor, trip hazard)",
+      "missing PPE (no hard hat, safety glasses)"
+    ],
+    "risk_level": "MEDIUM",
+    "details": "Trip hazards from loose lumber and the air hose are present. The worker is not wearing a hard hat or safety glasses, which are standard PPE for a construction site."
+  },
+  "activity": "framing",
+  "productivity": "PRODUCTIVE",
+  "confidence": 0.95,
+  "reasoning": "The worker is actively handling lumber and placing it on sawhorses, which is a direct action in the process of assembling wall frames. This is a productive framing activity.",
+  "spatial_memory": [
+    {
+      "object": "other worker",
+      "location": "center-right (frames 1-2), then out of view",
+      "type": "person"
+    },
+    {
+      "object": "roof trusses/framing",
+      "location": "overhead",
+      "type": "landmark"
+    },
+    {
+      "object": "nail gun",
+      "location": "on floor, near worker's right foot (frames 1-2), then out of view",
+      "type": "tool"
+    },
+    {
+      "object": "red air hose",
+      "location": "on floor, extending from nail gun",
+      "type": "hazard"
+    },
+    {
+      "object": "grey bucket with lumber",
+      "location": "left foreground",
+      "type": "tool"
+    },
+    {
+      "object": "broom and dustpan",
+      "location": "right background",
+      "type": "tool"
+    },
+    {
+      "object": "sawhorses/workbench",
+      "location": "center background (frames 1-2), then center foreground (frames 3-4)",
+      "type": "tool"
+    },
+    {
+      "object": "loose lumber pieces",
+      "location": "on floor, general area",
+      "type": "hazard"
+    },
+    {
+      "object": "wood frame walls",
+      "location": "background, left and right",
+      "type": "landmark"
+    },
+    {
+      "object": "OSB subfloor",
+      "location": "underfoot",
+      "type": "landmark"
+    },
+    {
+      "object": "newly laid out wall frame",
+      "location": "left mid-ground (frames 3-4)",
+      "type": "landmark"
+    }
+  ]
+}
